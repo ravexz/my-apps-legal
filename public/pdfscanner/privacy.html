@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - PDF Scanner</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+    h1, h2 { color: #1a1a1a; }
+    h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    h2 { margin-top: 32px; }
+    h3 { margin-top: 24px; }
+    p, li { font-size: 16px; }
+    table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+    th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; vertical-align: top; }
+    th { background: #f6f6f6; }
+    footer { margin-top: 40px; padding-top: 10px; border-top: 1px solid #eee; font-size: 14px; color: #666; }
+    .summary { background: #f9f9f9; border: 1px solid #eee; padding: 16px 20px; border-radius: 6px; margin: 16px 0; }
+    .toc { background: #f9f9f9; border: 1px solid #eee; padding: 16px 20px 16px 40px; border-radius: 6px; }
+    .toc li { margin: 4px 0; }
+    .in-short { font-style: italic; color: #555; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p><strong>Last updated:</strong> November 18, 2026</p>
+
+  <p>This Privacy Notice for <strong>OrbitApp Developers</strong> ("we", "us", or "our") describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:</p>
+  <ul>
+    <li>Download and use our mobile application <strong>PDF Scanner</strong> (the "App"), or any other application of ours that links to this Privacy Notice</li>
+    <li>Visit our website at orbitapps.co.ke or any website of ours that links to this Privacy Notice</li>
+    <li>Engage with us in other related ways, including any marketing or events</li>
+  </ul>
+
+  <p><strong>Questions or concerns?</strong> Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:ronkdy1@gmail.com">ronkdy1@gmail.com</a>.</p>
+
+  <h2>Summary of Key Points</h2>
+  <div class="summary">
+    <p><em>This summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by using our table of contents below.</em></p>
+    <ul>
+      <li><strong>What personal information do we process?</strong> The App scans and stores documents locally by default. If you create an optional account and enable cloud sync, we collect your email, authentication identifier, and synced document files. We also process purchase information (via RevenueCat/Google Play) and advertising identifiers (via AdMob). <a href="#infocollect">Learn more</a>.</li>
+      <li><strong>Do we process sensitive personal information?</strong> We do not intentionally process sensitive personal information, though scanned documents may contain whatever you choose to scan (e.g., ID cards, receipts). You control what you scan.</li>
+      <li><strong>Do we collect information from third parties?</strong> We do not collect information from third parties.</li>
+      <li><strong>How do we process your information?</strong> We process information to provide account sync, process purchases, serve ads, and fix crashes. <a href="#infouse">Learn more</a>.</li>
+      <li><strong>In what situations and with which parties do we share personal information?</strong> We share information with Supabase (auth/sync), RevenueCat (purchases), AdMob (ads), and Firebase Crashlytics (diagnostics). <a href="#whoshare">Learn more</a>.</li>
+      <li><strong>How do we keep your information safe?</strong> Account data is isolated per-user, sessions are encrypted, and documents are excluded from Android cloud backup. <a href="#infosafe">Learn more</a>.</li>
+      <li><strong>What are your rights?</strong> You can delete documents individually or your entire account and data at any time. <a href="#privacyrights">Learn more</a>.</li>
+    </ul>
+  </div>
+
+  <h2>Table of Contents</h2>
+  <ol class="toc">
+    <li><a href="#infocollect">What information do we collect?</a></li>
+    <li><a href="#infouse">How do we process your information?</a></li>
+    <li><a href="#legalbases">What legal bases do we rely on to process your personal information?</a></li>
+    <li><a href="#whoshare">When and with whom do we share your personal information?</a></li>
+    <li><a href="#cookies">Do we use cookies and other tracking technologies?</a></li>
+    <li><a href="#sociallogins">How do we handle your social logins?</a></li>
+    <li><a href="#inforetain">How long do we keep your information?</a></li>
+    <li><a href="#infosafe">How do we keep your information safe?</a></li>
+    <li><a href="#infominors">Do we collect information from minors?</a></li>
+    <li><a href="#privacyrights">What are your privacy rights?</a></li>
+    <li><a href="#dnt">Controls for do-not-track features</a></li>
+    <li><a href="#uslaws">Do United States residents have specific privacy rights?</a></li>
+    <li><a href="#policyupdates">Do we make updates to this notice?</a></li>
+    <li><a href="#contact">How can you contact us about this notice?</a></li>
+    <li><a href="#request">How can you review, update, or delete the data we collect from you?</a></li>
+  </ol>
+
+  <h2 id="infocollect">1. What Information Do We Collect?</h2>
+  <p class="in-short"><strong>In Short:</strong> We collect information you provide (account email), document files if you enable cloud sync, purchase history, and advertising/device identifiers.</p>
+
+  <h3>Information you provide to us</h3>
+  <p>If you create an account (email/password or Google sign-in), we collect:</p>
+  <ul>
+    <li>Your email address</li>
+    <li>An authentication identifier (managed by Supabase Auth)</li>
+    <li>If you enable cloud sync (off by default): your scanned pages and generated PDFs uploaded to your private, per-account cloud storage</li>
+  </ul>
+  <p>Creating an account is optional — the App's scanning, editing, OCR, and annotation tools work without signing in. Documents created without an account are stored only in the App's private storage on your device.</p>
+
+  <h3>Purchase information</h3>
+  <p>If you purchase the Pro upgrade (one-time or subscription), the transaction is processed by <strong>RevenueCat</strong> and <strong>Google Play Billing</strong>. RevenueCat receives your purchase/transaction history and, if you're signed in, links it to your account identifier so your entitlement is preserved across devices. We do not receive or store your payment card details; those are handled by Google Play.</p>
+
+  <h3>Advertising data</h3>
+  <p>Free-tier use of the App shows ads served by <strong>Google AdMob</strong>. AdMob collects your advertising ID and device/usage signals to serve and measure ads. You can reset your advertising ID, or opt out of personalized ads, in your device's Google settings.</p>
+
+  <h3>Crash and diagnostic data</h3>
+  <p>We use <strong>Firebase Crashlytics</strong> to collect crash reports and basic device diagnostics (device model, OS version, app version) to fix bugs. This does not include your scanned document content.</p>
+
+  <h3>Information collected automatically (scanning)</h3>
+  <p>When you scan a document, the App captures photos via your device camera (through Google's ML Kit Document Scanner) and processes them on-device to produce cropped, enhanced scans and PDFs. These files are stored in the App's private storage on your device and are not transmitted to us unless you explicitly enable cloud sync.</p>
+
+  <p>We do not collect location, contacts, or any data beyond what's described above. We do not sell your data to third parties.</p>
+
+  <h2 id="infouse">2. How Do We Process Your Information?</h2>
+  <p class="in-short"><strong>In Short:</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law.</p>
+  <ul>
+    <li><strong>To facilitate account creation and authentication and otherwise manage user accounts.</strong> We process your email and auth identifier so you can sign in and sync documents.</li>
+    <li><strong>To sync your documents across devices</strong> (only if you enable cloud sync).</li>
+    <li><strong>To process purchases and subscriptions.</strong> RevenueCat and Google Play Billing process purchase history to manage your Pro entitlement.</li>
+    <li><strong>To serve and measure advertisements.</strong> AdMob uses device identifiers and usage signals to display and measure ads in the free tier.</li>
+    <li><strong>To fix bugs and improve stability.</strong> Firebase Crashlytics processes crash reports and device diagnostics.</li>
+    <li><strong>To communicate with you</strong> (e.g., support requests, subscription confirmations).</li>
+    <li><strong>To comply with legal obligations</strong> and defend our legal rights.</li>
+  </ul>
+
+  <h2 id="legalbases">3. What Legal Bases Do We Rely On to Process Your Personal Information?</h2>
+  <p class="in-short"><strong>In Short:</strong> We only process your personal information when we have a valid legal reason to do so under applicable law.</p>
+  <p><strong>If you are located in the EU or UK:</strong> We may rely on:</p>
+  <ul>
+    <li><strong>Consent.</strong> Where you have given us permission to use your personal information for a specific purpose (e.g., enabling cloud sync, personalized ads). You can withdraw your consent at any time.</li>
+    <li><strong>Performance of a Contract.</strong> Where processing is necessary to provide the App's features you requested (e.g., account sync, purchase fulfillment).</li>
+    <li><strong>Legitimate Interests.</strong> Where processing is necessary for our legitimate interests (e.g., serving non-personalized ads, fixing crashes) and does not override your rights.</li>
+    <li><strong>Legal Obligations.</strong> Where processing is necessary to comply with applicable law.</li>
+  </ul>
+  <p><strong>If you are located in Canada:</strong> We may process your information with your express or implied consent, or as otherwise permitted by applicable law. You can withdraw your consent at any time.</p>
+
+  <h2 id="whoshare">4. When and With Whom Do We Share Your Personal Information?</h2>
+  <p class="in-short"><strong>In Short:</strong> We may share information in specific situations described in this section and/or with the following third parties.</p>
+  <p>We do not sell, rent, or trade your personal information. We share information only with the following service providers and in the following situations:</p>
+  <ul>
+    <li><strong>Supabase</strong> (authentication, database, file storage) — processes your account credentials and, if cloud sync is enabled, your synced documents. See <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase's Privacy Policy</a>.</li>
+    <li><strong>RevenueCat</strong> (subscription and purchase management) — processes purchase/transaction history to manage your Pro entitlement. See <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat's Privacy Policy</a>.</li>
+    <li><strong>Google AdMob</strong> (advertising) — processes advertising ID and device/usage signals. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses data</a>.</li>
+    <li><strong>Firebase Crashlytics</strong> (crash reporting) — processes crash reports and device diagnostics. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase's Privacy Policy</a>.</li>
+    <li><strong>Google ML Kit &amp; Google Play services</strong> (on-device document scanning and text recognition) — see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+    <li><strong>Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
+    <li><strong>Legal Requirements.</strong> We may disclose information to regulatory authorities or law enforcement agencies when mandated by valid legal process or court order.</li>
+  </ul>
+
+  <h2 id="cookies">5. Do We Use Cookies and Other Tracking Technologies?</h2>
+  <p class="in-short"><strong>In Short:</strong> The App uses device identifiers (advertising ID) for ad serving and crash diagnostics.</p>
+  <p>The App does not use browser cookies. It relies on your device's advertising ID (resettable in Google settings) for ad personalization and measurement, and on Crashlytics device identifiers for crash grouping.</p>
+  <p>Our website at orbitapps.co.ke may use minimal essential cookies for site navigation and security. Where analytics tools are enabled on the website, data is anonymized. You can adjust your browser settings to reject non-essential cookies.</p>
+
+  <h2 id="sociallogins">6. How Do We Handle Your Social Logins?</h2>
+  <p class="in-short"><strong>In Short:</strong> You can sign in to PDF Scanner using your Google account.</p>
+  <p>If you choose to sign in with Google, we receive your name, email address, and profile picture from Google, as described in the section above. We use this information only to create and manage your account and to sync your documents. We do not control how Google uses your data; please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+
+  <h2 id="inforetain">7. How Long Do We Keep Your Information?</h2>
+  <p class="in-short"><strong>In Short:</strong> We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.</p>
+  <p>Your account information and synced documents are retained until you delete your account. When you delete individual documents from the App's library, the local copy is removed immediately. If cloud sync was enabled, the cloud copy is removed when you delete your account (see section 15). We may retain aggregated crash data for a limited period to improve the App.</p>
+
+  <h2 id="infosafe">8. How Do We Keep Your Information Safe?</h2>
+  <p class="in-short"><strong>In Short:</strong> We aim to protect your personal information through organizational and technical security measures.</p>
+  <ul>
+    <li>Each account's documents and files are isolated at the database and storage level — your data is not accessible to other users.</li>
+    <li>Your authentication session is stored encrypted on your device.</li>
+    <li>Scanned documents and your session are excluded from Android's automatic cloud backup.</li>
+    <li>Data is encrypted in transit between the App and our backend providers.</li>
+  </ul>
+  <p>Despite our safeguards, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure. Transmission of personal information to and from our Services is at your own risk.</p>
+
+  <h2 id="infominors">9. Do We Collect Information from Minors?</h2>
+  <p class="in-short"><strong>In Short:</strong> We do not knowingly collect data from or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction.</p>
+  <p>We do not knowingly collect, solicit data from, or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction, nor do we knowingly sell such personal information. By using the Services, you represent that you are at least 18 or the equivalent age as specified by law in your jurisdiction or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Services. If we learn that personal information from users under 18 has been collected, we will deactivate the account and take reasonable measures to promptly delete such data. If you become aware of any data we may have collected from children under 18, please contact us at <a href="mailto:ronkdy1@gmail.com">ronkdy1@gmail.com</a>.</p>
+
+  <h2 id="privacyrights">10. What Are Your Privacy Rights?</h2>
+  <p class="in-short"><strong>In Short:</strong> Depending on where you are located, you may have certain rights regarding your personal information.</p>
+  <p>In some regions (such as the EEA, UK, Switzerland, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure, (iii) to restrict the processing of your personal information, (iv) to data portability, and (v) to object to the processing of your personal information.</p>
+  <p>You can exercise these rights by contacting us at <a href="mailto:ronkdy1@gmail.com">ronkdy1@gmail.com</a>. You can also delete individual documents or your entire account directly in the App (Settings → Delete Account).</p>
+
+  <h3>Withdrawing your consent</h3>
+  <p>If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time by contacting us at <a href="mailto:ronkdy1@gmail.com">ronkdy1@gmail.com</a> or by adjusting your preferences in the App. Withdrawal will not affect the lawfulness of processing before its withdrawal.</p>
+
+  <h3>UK complaints</h3>
+  <p>If you are located in the UK and are unhappy with how we have handled your personal information, you can complain to the Information Commissioner's Office (ICO): <a href="https://ico.org.uk/make-a-complaint" target="_blank" rel="noopener">ico.org.uk/make-a-complaint</a>, Helpline 0303 123 1113, Post: Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF.</p>
+
+  <h3>EEA/Switzerland</h3>
+  <p>If you are located in the EEA or Switzerland and believe we are unlawfully processing your personal information, you have the right to complain to your Member State data protection authority or the Swiss Federal Data Protection and Information Commissioner.</p>
+
+  <h2 id="dnt">11. Controls for Do-Not-Track Features</h2>
+  <p>Most web browsers include a Do-Not-Track ("DNT") feature. No uniform technology standard for recognizing and implementing DNT signals has been finalized, so we do not currently respond to DNT browser signals. You can opt out of personalized ads in your device's Google settings regardless of DNT.</p>
+  <p><strong>Global Privacy Control (GPC):</strong> We recognize and honor GPC signals where applicable under US state privacy laws. When we detect a GPC signal, we treat it as a request to opt out of the sale or sharing of personal information for targeted advertising.</p>
+
+  <h2 id="uslaws">12. Do United States Residents Have Specific Privacy Rights?</h2>
+  <p class="in-short"><strong>In Short:</strong> If you are a resident of certain US states, you may have the right to request access, correction, deletion, or to opt out of certain processing.</p>
+  <p>The table below shows the categories of personal information we have collected in the past twelve (12) months. PDF Scanner collects identifiers (account email), commercial/financial info (purchase history), and device/ad identifiers (for ads and crash diagnostics).</p>
+  <table>
+    <thead>
+      <tr><th>Category</th><th>Examples</th><th>Collected</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>A. Identifiers</td><td>Real name, email address, authentication identifier, advertising ID, IP address</td><td>YES</td></tr>
+      <tr><td>B. Personal information (Cal. Customer Records)</td><td>Name, contact info, employment history, financial information</td><td>NO</td></tr>
+      <tr><td>C. Protected classification characteristics</td><td>Gender, age, race, national origin, marital status</td><td>NO</td></tr>
+      <tr><td>D. Commercial information</td><td>Transaction information, purchase history, financial details (Pro upgrade purchases via RevenueCat/Google Play)</td><td>YES</td></tr>
+      <tr><td>E. Biometric information</td><td>Fingerprints and voiceprints</td><td>NO</td></tr>
+      <tr><td>F. Internet or other similar network activity</td><td>Device advertising ID, usage signals for ad serving (AdMob), crash diagnostics (Crashlytics)</td><td>YES</td></tr>
+      <tr><td>G. Geolocation data</td><td>Device location</td><td>NO</td></tr>
+      <tr><td>H. Audio, electronic, sensory information</td><td>Images, audio, video, call recordings (scanned documents if you enable cloud sync)</td><td>YES (only if cloud sync enabled)</td></tr>
+      <tr><td>I. Professional or employment-related information</td><td>Business contact details, job title, work history</td><td>NO</td></tr>
+      <tr><td>J. Education information</td><td>Student records and directory information</td><td>NO</td></tr>
+      <tr><td>K. Inferences drawn from collected personal information</td><td>Profiles or summaries about preferences and characteristics</td><td>NO</td></tr>
+      <tr><td>L. Sensitive personal information</td><td>Race, ethnicity, sexual orientation, religious beliefs</td><td>NO</td></tr>
+    </tbody>
+  </table>
+  <p>We share categories A, D, F, and (if applicable) H with our service providers for the purposes described in section 4. We do not sell personal information. You may opt out of ad-related sharing by resetting your advertising ID or opting out of personalized ads in your device's Google settings.</p>
+
+  <h3>Your US privacy rights</h3>
+  <p>Depending on your state of residence, you may have the right to know, access, correct, delete, obtain a copy of, and opt out of certain processing of your personal data, as well as the right to non-discrimination for exercising your rights. To exercise these rights, contact us at <a href="mailto:ronkdy1@gmail.com">ronkdy1@gmail.com</a> or use the App's account deletion feature (Settings → Delete Account). To opt out of ad-related sharing, reset your advertising ID in your device's Google settings.</p>
+
+  <h3>Appeals</h3>
+  <p>If we decline to take action regarding your request, you may appeal our decision by emailing us at <a href="mailto:ronkdy1@gmail.com">ronkdy1@gmail.com</a>. If your appeal is denied, you may submit a complaint to your state attorney general.</p>
+
+  <h2 id="policyupdates">13. Do We Make Updates to This Notice?</h2>
+  <p><strong>In Short:</strong> Yes, we will update this notice as necessary to stay compliant with relevant laws.</p>
+  <p>We may update this Privacy Notice from time to time. The updated version will be indicated by an updated "Last updated" date at the top of this Privacy Notice. If we make material changes, we may notify you by prominently posting a notice or by directly sending you a notification. We encourage you to review this Privacy Notice frequently.</p>
+
+  <h2 id="contact">14. How Can You Contact Us About This Notice?</h2>
+  <p>If you have questions or comments about this notice, you may email us at <a href="mailto:ronkdy1@gmail.com">ronkdy1@gmail.com</a> or contact us by post at:</p>
+  <p>
+    <strong>OrbitApp Developers (Orbit Apps Limited)</strong><br>
+    Kikuyu 20200<br>
+    Nairobi, Kenya<br>
+    Phone: +254 780 986001
+  </p>
+
+  <h2 id="request">15. How Can You Review, Update, or Delete the Data We Collect from You?</h2>
+  <p>You have the right to request access to the personal information we collect from you, details about how we have processed it, to correct inaccuracies, or to delete your personal information.</p>
+  <ul>
+    <li><strong>Delete individual documents</strong> at any time from the App's library. This removes the document from your device. If the document was previously synced to the cloud (cloud sync enabled), the cloud copy is removed when you delete your account.</li>
+    <li><strong>Delete your entire account</strong> from <strong>Settings → Delete Account</strong>. This immediately and permanently deletes your account, all synced documents, and all associated cloud storage files, and wipes local data on the device you deleted it from. This action cannot be undone.</li>
+    <li><strong>Sign out</strong> at any time from Settings; your documents remain synced to your account for when you sign back in.</li>
+  </ul>
+  <p>To submit a request, email us at <a href="mailto:ronkdy1@gmail.com">ronkdy1@gmail.com</a>. We will verify your identity before processing your request.</p>
+
+  <footer>
+    <p>&copy; 2026 OrbitApp Developers (Orbit Apps Limited). All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
