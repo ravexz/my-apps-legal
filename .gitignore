@@ -1,3 +1,8 @@
+# Firebase agent skills (not needed for static site)
+.agents/
+.claude/
+skills-lock.json
+
 # Logs
 logs
 *.log
